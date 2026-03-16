@@ -87,7 +87,7 @@ const TERMS_SECTIONS = [
   {
     icon: "🍪",
     title: "11. Privacy & Data Protection",
-    content: `We are committed to protecting your privacy. Any personal data collected through our website or service engagements is used solely for the purpose of delivering our services and communicating with you. We do not sell or rent personal information to third parties. We implement industry-standard security measures to protect your data. By using our services, you consent to the collection and processing of your data as described in our Privacy Policy. You may request deletion of your personal data at any time by contacting michealross7422@gmail.com.`,
+    content: `We are committed to protecting your privacy. Any personal data collected through our website or service engagements is used solely for the purpose of delivering our services and communicating with you. We do not sell or rent personal information to third parties. We implement industry-standard security measures to protect your data. By using our services, you consent to the collection and processing of your data as described in our Privacy Policy. You may request deletion of your personal data at any time by contacting michaelross7422@gmail.com.`,
   },
   {
     icon: "📝",
@@ -369,7 +369,7 @@ function Contact() {
     setTimeout(() => {
       const subject = encodeURIComponent(`New Project Inquiry from ${form.name}`);
       const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\nService: ${form.service || "Not specified"}\n\nMessage:\n${form.message}`);
-      window.location.href = `mailto:michealross7422@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:michaelross7422@gmail.com?subject=${subject}&body=${body}`;
     }, 800);
     setSent(true);
   };
@@ -383,9 +383,9 @@ function Contact() {
             <p className="text-gray-400 text-base leading-relaxed mb-10">Tell us about your project and we'll respond within 24 hours with a tailored proposal and free consultation.</p>
             <div className="space-y-5">
               {[
-                { icon: "📍", label: "Office", value: "403 Oak Ridge Grove Dr Spring, TX 77386" },
-                { icon: "📞", label: "Phone / WhatsApp", value: "+1 (614) 391-9510" },
-                { icon: "✉️", label: "Email", value: "michealross7422@gmail.com" },
+                { icon: "📍", label: "Office", value: "2253 84th St Brooklyn, NY 11214" },
+                { icon: "📞", label: "Phone / WhatsApp", value: "+1 (917) 825-7959" },
+                { icon: "✉️", label: "Email", value: "michaelross7422@gmail.com" },
               ].map((c) => (
                 <div key={c.label} className="flex items-start gap-4">
                   <div className="w-11 h-11 bg-gray-800 rounded-xl flex items-center justify-center text-lg flex-shrink-0">{c.icon}</div>
@@ -509,7 +509,7 @@ function TermsPage({ onNavigate }) {
           <h3 className="text-white text-2xl font-black mb-3">Questions About These Terms?</h3>
           <p className="text-gray-400 text-sm mb-6 max-w-lg mx-auto">Our team is happy to clarify any section of these terms before you engage our services. Reach out anytime.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:michealross7422@gmail.com"
+            <a href="mailto:michaelross7422@gmail.com"
               className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold px-6 py-3 rounded-full hover:opacity-90 transition-opacity text-sm">
               ✉️ Email Us
             </a>
@@ -528,7 +528,7 @@ function TermsPage({ onNavigate }) {
 
       {/* Footer note */}
       <p className="text-center text-gray-700 text-xs mt-10">
-        © 2025 Smart Payment Solutions · 403 Oak Ridge Grove Dr Spring, TX 77386 · michealross7422@gmail.com
+        © 2025 Smart Payment Solutions · 2253 84th St Brooklyn, NY 11214 · michaelross7422@gmail.com
       </p>
     </div>
   );
